@@ -1,0 +1,7 @@
+__pycache__/
+cache/
+corpus/
+index/
+dataset_1202.json
+image.png
+law_dataset_1202.json
