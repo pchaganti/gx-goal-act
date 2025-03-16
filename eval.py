@@ -7,10 +7,10 @@ import requests
 
 ground_truth = json.load(open('./dataset_1202.json', 'r'))
 
-start = 0
-end = 300
+start = 260
+end = 280
 
-date = "a4"
+date = "0311"
 mode = "key_answer" # key_answer, key_middle, bertscore
 
 # method = ["plan_solve", "plan_execute",'react']
@@ -45,7 +45,7 @@ for model_name in model_names:
                 average_score += score
                 if score != 1:
                     # print(ground_truth[start + idx]['new_question'])
-                    # print(f"idx: {start + idx + 1}")
+                    print(f"idx: {start + idx + 1}")
                     # ids.append(start + idx)
                     pass
 

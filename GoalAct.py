@@ -116,7 +116,7 @@ def run_with_cache(data, model_name, date):
     return result
 
 if __name__ == "__main__":
-    datas = json.load(open('./dataset_1202.json', 'r'))[:10]
+    datas = json.load(open('./dataset_1202.json', 'r'))
     parser = argparse.ArgumentParser(description="Process some integers.")
     parser.add_argument('--model', type=str, required=True, help='实验基座模型')
     parser.add_argument('--date', type=str, required=True, help='实验日期，用于区别输出路径，如output_date')
