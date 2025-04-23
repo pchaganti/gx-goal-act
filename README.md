@@ -1,4 +1,4 @@
-# GoalAct
+# Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution (GoalAct)
 
 ![image-20250316233231259](./framework.png)
 
