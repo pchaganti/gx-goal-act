@@ -14,7 +14,7 @@ python GoalAct.py --model {model_name} --date {experiment_date} [--multi]
 - date: Records the experiment time.
 - multi: Indicates whether multiprocessing is enabled.
 
-## 项目结构
+## Structure
 - result
   - output: Results of the main experiment
   - output_a1: Ablation experiment (w/o global plan)
